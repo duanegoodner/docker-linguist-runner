@@ -1,10 +1,14 @@
 # docker-linguist
 
-A lightweight Dockerized wrapper for [GitHub Linguist](https://github.com/github/linguist), the library GitHub uses to detect languages in source code.
+A lightweight Dockerized wrapper for [GitHub Linguist](https://github.com/github/linguist)
 
-This lets you run `linguist` **locally** and **securely** on any repo — no Ruby or build setup required.
 
----
+## 📖 Description
+
+[GitHub Linguist](https://github.com/github/linguist) is the tool GitHub uses to detect the programming languages used in a repository, as well as to syntax-highlight files and ignore vendored content.
+
+This project provides a lightweight and secure Dockerized wrapper around Linguist — allowing you to run it **locally** on any repo without needing to install Ruby or native extensions.
+
 
 ## Getting Started
 
@@ -86,3 +90,7 @@ UID=1234
 GID=1234
 ```
 This can be useful for CI/CD or team-wide defaults.
+
+
+## 📄 License
+[MIT](./LICENSE)
