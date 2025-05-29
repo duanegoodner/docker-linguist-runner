@@ -1,4 +1,4 @@
-# docker-linguist
+# Docker Lingust Runner
 
 A lightweight Dockerized wrapper for [GitHub Linguist](https://github.com/github/linguist)
 
