@@ -1,0 +1,12 @@
+services:
+  linguist:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-1000}
+    volumes:
+      - ${PWD:-.}:/repo:ro
+    user: "${UID:-1000}:${GID:-1000}"
+    image: linguist-runner
